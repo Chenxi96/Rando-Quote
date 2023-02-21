@@ -1,0 +1,62 @@
+
+.App {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quote-box {
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  height: 25rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 8px;
+  transform: translate(70%, 60%);
+}
+
+.text {
+  font-size: 3rem;
+  height: auto;
+  padding: 20px;
+}
+
+.author {
+  font-size: 1rem;
+  padding: 20px;
+  text-align: right;
+}
+
+.links {
+  margin: auto;
+  padding-top: 10px;
+  display: block;
+}
+
+#tweet-quote {
+  position: relative;
+  float: left;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px;
+  margin-left: 25px;
+  border: 1px solid black;
+}
+
+#link2 {
+  float: left;
+  height: 30px;
+  padding: 10px 10px 0px 10px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#new-quote {
+  height: 30px;
+  float: right;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+}
