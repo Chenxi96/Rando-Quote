@@ -1,8 +1,7 @@
-
-.App {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-box {
@@ -11,14 +10,12 @@
   position: absolute;
   height: 25rem;
   width: 50rem;
-  background-color: white;
   border-radius: 8px;
-  transform: translate(70%, 60%);
+  border: 1px solid black;
 }
 
 .text {
   font-size: 3rem;
-  height: auto;
   padding: 20px;
 }
 

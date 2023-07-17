@@ -53,20 +53,20 @@ function App() {
   return (
     <div className="App" style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >
       <body className='container'>
-          <div id='quote-box' className='quote-box' >
+        <div id='quote-box' className='quote-box'>
           <div id='text' className='text' style={{color: `rgb(${a}, ${b}, ${c})`}} ></div>
           <div id='author' className='author' style={{color: `rgb(${a}, ${b}, ${c})`}} ></div>
-          {/* make button and new qoute work as a link */}
-          <div className='links'>
-            <a href='https://www.twitter.com/intent/tweet'  id='tweet-quote' style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >
-              <span class="material-symbols-outlined">flutter_dash</span>
-            </a>
-            <a href='https://www.tumblr.com/' id='link2'style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >
-              <span class="material-symbols-outlined">man_3</span>
-            </a>
-            <button id='new-quote' onClick={ColorChange}  style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >New Quote</button>
+            {/* make button and new qoute work as a link */}
+            <div className='links'>
+              <a href='https://www.twitter.com/intent/tweet'  id='tweet-quote' style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >
+                <span class="material-symbols-outlined">flutter_dash</span>
+              </a>
+              <a href='https://www.tumblr.com/' id='link2'style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >
+                <span class="material-symbols-outlined">man_3</span>
+              </a>
+              <button id='new-quote' onClick={ColorChange}  style={{backgroundColor: `rgb(${a}, ${b}, ${c})`}} >New Quote</button>
+            </div>
           </div>
-        </div>
       </body>
     </div>
   );
